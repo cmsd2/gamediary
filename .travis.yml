@@ -12,6 +12,8 @@ addons:
 rust:
   - stable
 
+cache: cargo
+
 before_script:
   - export PATH=$HOME/.cargo/bin:$PATH
   - cargo install cargo-update || echo "cargo-update already installed"
