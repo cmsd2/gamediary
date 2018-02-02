@@ -7,6 +7,7 @@ addons:
     - kalakris-cmake
     packages:
     - cmake
+    - libasound2-dev
     
 rust:
   - stable
